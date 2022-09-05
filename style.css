@@ -1,0 +1,112 @@
+body{
+    background-image: url(./images\ \(1\).jpg);
+    
+    background-size: 900px 900px    ;
+    color: black;
+    
+}
+.main{
+    background-color: #53AAD8;
+    opacity: 75%;
+    width: 800px;
+    margin-left: 500px;
+}
+.lable-katta{
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+select{
+    width: 150px;
+    font-size: 20px;
+    height: 30px;
+}
+.kattaligi{
+    margin-left: -25px;
+}
+.lable-katta{
+    margin-top: 10px;
+    margin-left: 15px;
+    
+   
+}
+.inp{
+    font-size: 25px;
+}
+.qoshimchalar label{
+    font-size: 25px;
+}
+input{
+    font-size: 50px;
+}
+.b{
+    margin-left: 40%;
+    padding: 20px;
+    font-size: 40px;
+    color: white;
+}
+.kattaligi{
+    display: flex;
+}
+span{
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+#kattalik{
+    margin-top: 10px;
+}
+p{
+    font-size: 25px;
+}
+.radio-input{
+    display: none;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ustiga{
+    display: flex;
+}
+.left{
+    width: 500px;
+    height: 900px;
+    
+}
+.value-wrapper{
+    
+    width: 500px;
+    border-left: 3px solid black;
+    height: 900px;
+}
+.a{
+    margin-left: 80px;
+}
+.l{
+    margin-left: 50px;
+}
+b{
+    font-size: 25px;
+    padding: 15px;
+    margin-top: 20px;
+}
+.value-wrapper div{
+    margin-top: 50px;
+}
+.btn{
+    width: 250px;
+    font-size: 25px;
+    height: 60px;
+    color: white;
+    background: #FD6445;
+    border: #134071;
+    margin-top: 30px;
+}

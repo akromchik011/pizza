@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="b">Pitsa buyurtma qilish</h1>
+    <div class="main">
+        
+        <div class="left">
+            <div class="l">
+            <h2>Noni qanday bolsin?</h2>
+    <select class="select">
+        
+        <option value="yupka">Yupka</option>
+        <option value="orta">Orta</option>
+        <option value="qalin">Qalin</option>
+    </select>
+    <h2>Kattaligi</h2>
+    <div class="kattaligi">
+        
+        <input class="radio-input" id="check1" type="radio" name="radio">
+        <label class="lable-katta" for="check1">25sm</label>
+        <input class="radio-input" id="check2" type="radio" name="radio">
+        <label class="lable-katta" for="check2">30sm</label>
+        <input class="radio-input" id="check3" type="radio" name="radio">
+        <label class="lable-katta" for="check3 ">35sm</label>
+        
+    </div>
+    <h2>Ustiga nima solaylik?</h2>
+    <div class="ustiga">
+        
+        <div class="first">
+        <input class="ustiga-input" id="pomidor" value="pomidor" type="checkbox">
+        <label class="inp" for="pomidor">Pomidor</label>
+        <br>
+        <input class="ustiga-input" id="bodring" value="bodring" type="checkbox">
+        <label class="inp" for="bodring">Bodring</label>
+        <br>
+        <input class="ustiga-input" id="kurka go'shti" value="kurka go'shti" type="checkbox">
+        <label class="inp" for="kurka go'shti">Kurka go'shti</label>
+    </div>
+    <div class="second">
+        <input class="ustiga-input" id="tuzlangan bodring" value="tuzlangan bodring" type="checkbox">
+        <label class="inp" for="tuzlangan bodring">Tuzlangan bodring</label>
+        <br>
+        <input class="ustiga-input" id="qo'ziqorin" value="qo'ziqorin" type="checkbox">
+        <label class="inp" for="qo'ziqorin">Qo'ziqorin</label>
+        <br>    
+        <input class="ustiga-input" id="qazi" value="qazi" type="checkbox">
+        <label class="inp" for="qazi">Qazi</label>
+    </div>
+    </div>
+    <h2>Qoshimchalar</h2>
+    <div class="qoshimchalar">
+        <input  class="qoshimcha-input" id="achchiq" value="achchiq" type="checkbox">
+        <label  for="achchiq">Achchiq</label>
+        <input class="qoshimcha-input" id="sosiskali" value="sosiskali" type="checkbox">
+        
+        <label for="sosiskali">Sosiskali</label>
+    
+    </div>
+</div>
+</div>
+    
+    <div class="value-wrapper">
+        <div class="a">
+        <div class="value-qalinlik">
+            <b>Non:</b> <p id="qalinlik"></p>
+        </div>
+
+        <div class="value-kattalik">
+            <b>Kattalik:
+                <br>
+                <p></p>
+            </b>  <span id="kattalik"></span>
+        </div>
+
+        <div class="value-ustiga">
+            <b>ustiga:</b> <p id="ustiga"></p>
+        </div>
+
+        <div class="value-qoshimcha">
+            <b>qoshimcha:</b> <p id="qoshimcha"></p>
+        </div>
+        <button class="btn">Buyurtma berish</button>
+    </div>
+    </div>
+</div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
